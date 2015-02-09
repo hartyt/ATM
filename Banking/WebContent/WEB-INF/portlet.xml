@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd" id="com.ibm.banking.BankingPortlet.3df6a8e6b4">
+	<portlet>
+		<portlet-name>Banking</portlet-name>
+		<display-name xml:lang="en">Banking</display-name>
+		<display-name>Banking</display-name>
+		<portlet-class>com.ibm.banking.BankingPortlet</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>en</supported-locale>
+		<resource-bundle>com.ibm.banking.nl.BankingPortletResource</resource-bundle>
+		<portlet-info>
+			<title>Banking</title>
+			<short-title>Banking</short-title>
+			<keywords>Banking</keywords>
+		</portlet-info>
+	</portlet>
+</portlet-app>
